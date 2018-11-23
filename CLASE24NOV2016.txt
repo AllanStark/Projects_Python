@@ -1,0 +1,32 @@
+Os
+Shutil as sh
+shell
+
+cwd -> Current window direction
+
+-leer un archivo
+-escribir un archivo
+-modificar un archivo
+-copiar un archivo
+-mover un archivo
+
+	Looking for cwd
+import os
+cwd=os.getcwd() #To know the current directory
+os.chdir() #to change directory
+
+import shutil as sh
+
+___VERIFICAR LA EXISTENCIA DEL ARCHIVO ANTES DE ABRIRLOS
+___COMO CARGAR EN LA MEMORIA ARCHIVOS Y FOLDERS DE UNA RUTA, DESCUBRIR SI ES UN ARCHIVO O UN FOLDER, Y SEGUIR BUSCANDO FOLDER Y GUARDAR LA DIRECCION
+___COMO SABER SI ES UN ARCHIVO MP3, SI ES UN MP3 GUARDAR EN UNA LISTA, USAR RECURSION, EXPRESIONES REGULARES, CAMBIAR EL NOMBRE A MINUSCULAS Y SIN ACENTOS Y SIN ESPACIOS NI SEÑAS
+___BUSCAR LA INSTRUCCION PARA RENOMBRAR LOS ARCHIVOS DE MP3-
+
+tail archivo
+-abrir el archivo
+-leer el archivo por lineas (Cargarlo en lista 1)
+-Generar otra lista (lista2) con los 10 ultimos elementos de lista1
+-imprimir lista 2
+-guardar lista 2
+
+
